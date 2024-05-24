@@ -1,9 +1,13 @@
-pipeline {
+hpipeline {
     agent any
     stages {
         stage('Build') {
             steps {
                 echo 'Allication build stage...' 
+                echo"This ismy IP"
+                curl -s ifconfig.co
+                echo "This is my Hostname"
+                hostname -f
         }
        }
         stage('Test') {
