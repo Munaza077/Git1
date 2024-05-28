@@ -5,9 +5,8 @@ hpipeline {
             steps {
                 echo 'Allication build stage...' 
                 echo"This ismy IP"
-                curl -s ifconfig.com}
-                echo "This is my Hostname"
-                hostname -f
+                
+            
         }
        }
         stage('Test') {
