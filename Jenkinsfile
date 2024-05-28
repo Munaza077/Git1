@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Allication build stage...' 
                 echo"This ismy IP"
-                
+                echo"This ismy IP"
             
         }
        }
