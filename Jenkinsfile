@@ -19,6 +19,7 @@ pipeline {
                 echo 'Allication run stage' 
                 sh'gcloud compute zones list'
             }
+                    sh'gcloud compute zones list'
     }
 }
 }
